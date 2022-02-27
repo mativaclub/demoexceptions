@@ -48,7 +48,6 @@ public class EmployeeServiceImpl implements EmployeeService {
         throw new EmployeeNotFoundException();
     }
 
-
     @Override
     public Employee find(String firstName, String lastName) {
         Employee newEmployee = new Employee(firstName, lastName);
