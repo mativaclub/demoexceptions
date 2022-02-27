@@ -12,6 +12,7 @@ public class EmployeeNotFoundException extends RuntimeException {
         super(DEFAULT_MESSAGE);
     }
 
+
 //    public EmployeeNotFoundException(String message) {
 //        super(message);
 //    }
